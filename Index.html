@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Stated Reverie creates physical places for the memories we don't want to lose.">
+<title>Stated Reverie — A Place for What Matters</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=41">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#top"><img class="brand-brooch" src="assets/stated-reverie-brooch-official.png" alt="Stated Reverie SR Brooch"><span class="brand-name">STATED REVERIE</span></a>
+  <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+  <nav class="site-nav">
+    <a href="story.html">Our Story</a><a href="resonate.html">Resonated States</a><a href="memory-capsules.html">Memory Key Inserts</a><a href="genesis.html">Reverie Vault</a><a href="collection.html">The Collection</a>
+  </nav>
+</header>
+
+<main id="top">
+<section class="hero hero-v41" aria-labelledby="v41-title">
+  <div class="hero-v41-backdrop" aria-hidden="true"></div>
+  <div class="hero-v41-copy">
+    <p class="v41-eyebrow">A PLACE FOR WHAT MATTERS.™</p>
+    <h1 id="v41-title">One Memory Frame.<span>Countless Stories.</span></h1>
+    <p class="v41-senses">SEE IT <b>•</b> HEAR IT <b>•</b> TOUCH IT <b>•</b> SHARE IT</p>
+    <p class="v41-lead">An interchangeable Memory Frame ecosystem designed to bring the things that matter to you back into your everyday life.</p>
+    <p class="v41-examples">Photos. Heirlooms. Jewelry. Tickets. Family history. Service memories. Moments that deserve more than a box or drawer.</p>
+    <div class="v41-actions">
+      <a class="v41-button primary" href="#watch">Watch it in action <span aria-hidden="true">▶</span></a>
+      <a class="v41-button secondary" href="#interest">Orders available soon</a>
+    </div>
+  </div>
+
+  <div class="memory-frame-rotator" aria-label="Examples of interchangeable Stated Reverie Memory Frame presentations">
+    <div class="rotator-stage">
+      <img class="rotator-slide active" src="assets/family-tree.jpg" alt="Family Tree Memory Frame presentation">
+      <img class="rotator-slide" src="assets/clock-album-cd.jpg" alt="Music and CD Memory Frame presentation">
+      <img class="rotator-slide" src="assets/shadowbox-wristwatch.jpg" alt="Wristwatch heirloom Memory Frame presentation">
+      <img class="rotator-slide" src="assets/lithophane-lit.jpg" alt="Illuminated lithophane Memory Frame presentation">
+      <img class="rotator-slide" src="assets/event-keepsake-superbowl.jpg" alt="Event keepsake Memory Frame presentation">
+      <img class="rotator-slide" src="assets/pegboard-pocketwatch.jpg" alt="Pocket watch pegboard Memory Frame presentation">
+    </div>
+    <div class="rotator-footer">
+      <span id="rotator-caption">Family Tree</span>
+      <div class="rotator-controls" aria-label="Memory Frame slideshow controls">
+        <button type="button" class="rotator-prev" aria-label="Previous Memory Frame">‹</button>
+        <div class="rotator-dots" aria-label="Choose a Memory Frame"></div>
+        <button type="button" class="rotator-next" aria-label="Next Memory Frame">›</button>
+      </div>
+    </div>
+  </div>
+  <a class="v41-scroll-cue" href="#watch">Discover the system <span aria-hidden="true">↓</span></a>
+</section>
+
+<section class="v41-watch" id="watch" aria-labelledby="watch-title">
+  <div class="v41-section-copy">
+    <p class="room-label">SEE IT IN ACTION</p>
+    <h2 id="watch-title">One frame. A completely different memory whenever you choose.</h2>
+    <p>See the real interchangeable system in use, then explore the House to discover the presentations, stories and possibilities behind it.</p>
+  </div>
+  <div class="v41-demo-video">
+    <video controls preload="metadata" playsinline aria-label="Stated Reverie Memory Frame full hands-on demonstration part 1">
+      <source src="assets/MemoryFrameDemo_Part1_H264.mp4" type="video/mp4">
+      Your browser does not support embedded video.
+    </video>
+    <div class="v41-video-caption"><strong>Full hands-on demonstration — Part 1</strong><span>Begin the complete Memory Frame demonstration and see the interchangeable memory experience in practice.</span></div>
+  </div>
+  <div class="v41-demo-video">
+    <video controls preload="metadata" playsinline aria-label="Stated Reverie Memory Frame full hands-on demonstration part 2">
+      <source src="assets/MemoryFrameDemo_Part2_H264.mp4" type="video/mp4">
+      Your browser does not support embedded video.
+    </video>
+    <div class="v41-video-caption"><strong>Full hands-on demonstration — Part 2</strong><span>Continue the demonstration to see the rest of the Memory Frame experience.</span></div>
+  </div>
+</section>
+
+<section class="v41-interest" id="interest" aria-labelledby="interest-title">
+  <div class="interest-intro">
+    <p class="room-label">ORDERS AVAILABLE SOON</p>
+    <h2 id="interest-title">What would you preserve?</h2>
+    <p>Everyone has something. A photograph, an heirloom, a concert, a watch, a medal, a family story—or something completely your own. Tell us what would matter in yours.</p>
+  </div>
+  <form class="interest-form" name="stated-reverie-interest" method="POST" data-netlify="true">
+    <input type="hidden" name="form-name" value="stated-reverie-interest">
+    <label class="wide">
+      <span>What would you preserve in your Memory Frame? <em>Optional</em></span>
+      <textarea name="memory" rows="4" placeholder="Tell us what matters to you..."></textarea>
+    </label>
+    <label><span>First name</span><input name="first-name" type="text" autocomplete="given-name"></label>
+    <label><span>Email address <b aria-hidden="true">*</b></span><input name="email" type="email" autocomplete="email" required></label>
+    <fieldset class="wide">
+      <legend>Keep me informed about:</legend>
+      <label class="check"><input type="checkbox" name="updates" value="store-opening"> <span>Stated Reverie Store opening</span></label>
+      <label class="check"><input type="checkbox" name="updates" value="kickstarter"> <span>Resonated States Kickstarter launch</span></label>
+    </fieldset>
+    <button class="v41-button primary wide" type="submit">Keep me informed</button>
+    <p class="form-note wide">Your information will only be used for the Stated Reverie updates you request.</p>
+  </form>
+</section>
+
+<section class="v41-explore" aria-labelledby="explore-title">
+  <p class="room-label">THERE IS MORE TO DISCOVER</p>
+  <h2 id="explore-title">Want to see more?</h2>
+  <p>Step inside Stated Reverie and explore the ideas, presentations and stories already waiting in the House.</p>
+  <a class="v41-button secondary" href="#house">Learn more — Explore Stated Reverie <span aria-hidden="true">→</span></a>
+</section>
+
+<section class="memory-room-index" id="house" aria-label="Explore the House">
+  <div class="memory-room-intro">
+    <p class="room-label">EXPLORE THE HOUSE</p>
+    <h2>Six rooms. Six ways to remember.</h2>
+    <p>Move through the House at your own pace. Approach a room and it comes forward—each one opening a different part of the Stated Reverie story.</p>
+  </div>
+
+  <div class="memory-room-grid">
+    <a class="memory-room-card story-memory" href="story.html">
+      <span class="memory-number">I</span>
+      <div class="memory-copy"><span class="house-room-name">THE STUDY</span><small>OUR STORY</small><strong>Where the idea first took shape.</strong><em>Enter the Study</em></div>
+      <div class="memory-image"><img src="assets/room-story-memory.jpg" alt="Atmospheric memory artwork for The Study"></div>
+      <span class="memory-arrow">→</span>
+    </a>
+
+    <a class="memory-room-card resonate-memory" href="resonate.html">
+      <span class="memory-number">II</span>
+      <div class="memory-copy"><span class="house-room-name">THE FAMILY ROOM</span><small>RESONATED STATES</small><strong>Where music, time and memory meet.</strong><em>Enter the Family Room</em></div>
+      <div class="memory-image"><img src="assets/room-resonate-memory.jpg" alt="A real Stated Reverie Family Tree presentation representing shared family memories"></div>
+      <span class="memory-arrow">→</span>
+    </a>
+
+    <a class="memory-room-card capsules-memory" href="memory-capsules.html">
+      <span class="memory-number">III</span>
+      <div class="memory-copy"><span class="house-room-name">THE LIVING ROOM</span><small>MEMORY KEY INSERTS</small><strong>The object remains. So does its story.</strong><em>Enter the Living Room</em></div>
+      <div class="memory-image"><img src="assets/family-memory-story.jpg" alt="The physical Stated Reverie Memory Booklet representing the stories attached to keepsakes"></div>
+      <span class="memory-arrow">→</span>
+    </a>
+
+    <a class="memory-room-card genesis-memory" href="genesis.html">
+      <span class="memory-number">IV</span>
+      <div class="memory-copy"><span class="house-room-name">THE LIBRARY</span><small>REVERIE VAULT / THE ARCHIVE</small><strong>A place for stories to gather across a life.</strong><em>Enter the Library</em></div>
+      <div class="memory-image"><img src="assets/room-genesis-memory.jpg" alt="Atmospheric archive artwork for The Library"></div>
+      <span class="memory-arrow">→</span>
+    </a>
+
+    <a class="memory-room-card gallery-memory" href="collection.html">
+      <span class="memory-number">V</span>
+      <div class="memory-copy"><span class="house-room-name">ART GALLERY</span><small>THE GALLERY</small><strong>Preserved stories brought forward again.</strong><em>Enter the Art Gallery</em></div>
+      <div class="memory-image"><img src="assets/room-gallery-memory.jpg" alt="A lineup of real Stated Reverie Memory Frame presentations representing the Collection"></div>
+      <span class="memory-arrow">→</span>
+    </a>
+
+    <a class="memory-room-card listening-memory" href="listening-room.html">
+      <span class="memory-number">VI</span>
+      <div class="memory-copy"><span class="house-room-name">THE LISTENING ROOM</span><small>BRING IT TO LIFE</small><strong>See it. Hear it. Explore the story beyond the object.</strong><em>Enter the Listening Room</em></div>
+      <div class="memory-image"><img src="assets/listening-room-memory.png" alt="Memory-rich scenes representing photographs, voices, stories and digital memories brought to life"></div>
+      <span class="memory-arrow">→</span>
+    </a>
+  </div>
+</section>
+
+<section class="house-threshold" aria-label="The House of Stated Reverie">
+  <span class="threshold-rule"></span>
+  <div>
+    <p class="room-label">THE HOUSE OF STATED REVERIE</p>
+    <h2>Different rooms. One philosophy.</h2>
+    <p>Each room explores a different way that objects, memory and meaning can remain together.</p>
+  </div>
+  <span class="threshold-rule"></span>
+</section>
+
+<aside class="founder-book-discovery">
+      <div class="book-object"><img src="assets/founders-book-scene.png" alt="The Founder’s Story book"></div>
+      <div class="book-caption"><span>THE FOUNDER’S STORY</span><strong>Chapter 01 — The Thought</strong><em>A book waiting in the Entrance Hall.</em><a href="chapter-1.html">Open Chapter <b>→</b></a></div>
+    </aside><section class="closing">
+  <div class="closing-mark"><img src="assets/stated-reverie-brooch-official.png" alt="Stated Reverie Brooch"></div>
+  <p>What passes into memory does not have to disappear.</p>
+  <span>STATED REVERIE</span>
+</section>
+</main>
+
+<footer class="site-footer"><div>© 2026 Stated Reverie.</div><div>Design with purpose in mind.</div></footer>
+<script src="script.js?v=41"></script>
+</body>
+</html>
